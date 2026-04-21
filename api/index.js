@@ -12,6 +12,6 @@ app.get('/', (req, res) => {
   res.send('API rodando na Vercel');
 });
 
-app.use('/', tarefaRoutes);
+app.use('/tarefas', tarefaRoutes);
 
 module.exports = app;
