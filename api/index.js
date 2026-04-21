@@ -13,7 +13,5 @@ app.get('/', (req, res) => {
 });
 
 app.use('/', tarefaRoutes);
-app.listen(3000,(req,res)=>{
-    console.log('oi')
-})
+
 module.exports = app;
